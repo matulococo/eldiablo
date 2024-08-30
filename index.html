@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tienda Aesthetic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>La Tienda de el Kevin</h1>
+            <nav>
+                <ul>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="catalog" class="catalog">
+            <div class="product">
+                <img src="images/kevin-juira-bicho.jpeg" alt="Producto 1">
+                <h2>el kevin juira bicho (chaco)</h2>
+                <p class="price">Precio: $99.99</p>
+                <p>personaje "el kevin" a tamaño real desde la pelicula "el chamaco perro", actor interpretado por kevin de barrio nuevo ee antes vivia en el cortijo viste cerca de la capilla amigo.</p>
+            </div>
+            <div class="product">
+                <img src="images/kevin-elegant.jpeg" alt="Producto 2">
+                <h2>Mr. Kevin (man of business)</h2>
+                <p class="price">Precio: $149.99</p>
+                <p>Descripción:personaje "Mr. kevin"  a tamaño real desde la pelicula de educacion financiera "como alquilar un traba y generar ingresos 2", actor interpretado el kevin de barrio nuevo tambien jaja</p>
+            </div>
+        </section>
+        
+        <section id="quotes" class="quotes">
+            <h2>Frases Motivadoras     (frases que el kevin nunca dijo)
+            </h2>
+            <p>“El éxito es la suma de pequeños esfuerzos repetidos día tras día.”</p>
+            <p>“No sueñes con el éxito, trabaja para lograrlo.”</p>
+            <p>“La única manera de hacer un gran trabajo es amar lo que haces.”</p>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 La Tienda del kevin. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
